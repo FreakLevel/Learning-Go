@@ -2,9 +2,12 @@ package main
 
 import "fmt"
 
+// Constant for salute
+const englishHelloPrefix = "Hello "
+
 // Hello return salute with specific name
 func Hello(name string) string {
-	return "Hello " + name
+	return englishHelloPrefix + name
 }
 
 func main() {
